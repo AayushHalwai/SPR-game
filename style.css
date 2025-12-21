@@ -1,14 +1,43 @@
 #container{
     display: flex;
-    text-align: center;
+    flex-direction: column;
+    width: 100%;
+
+   
 }
 #header{
     background-color: red;
     width: 100%;
     border-radius: 8px;
-
+    text-align: center;
 }
-#gamebox{
+#computer-pick-div{
     display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+button{
+    height: 80px;
+    width: 80px;
+}
 
+#game-info{
+    background-color: blue;
+    margin-top:8px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+#game-score{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 80px;
+}
+#user-pick{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
 }
